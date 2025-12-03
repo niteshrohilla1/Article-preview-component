@@ -1,5 +1,5 @@
-@import '/token.css';
-@import '/utilities.css';
+@import './token.css';
+@import './utilities.css';
 
 body {
     background-color: var(--grey-200);
