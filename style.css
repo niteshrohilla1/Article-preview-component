@@ -1,0 +1,155 @@
+@import '/token.css';
+@import '/utilities.css';
+
+body {
+    background-color: var(--grey-200);
+    margin: 0;
+}
+
+.card {
+    position: absolute;
+    display: flex;
+    gap: 40px;
+    border-radius: 10px;
+    inset: 0;
+    margin: auto;
+    max-width: 730px;
+    background-color: var(--white);
+    align-items: center;
+    justify-content: flex-start;
+    height: 280px;
+    width: 730px;
+    box-shadow: 0 40px 40px -10px rgb(201, 213, 225, 0.5);
+}
+
+.card>img {
+    height: 285px;
+    width: 280px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 365px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 365px;
+}
+
+.part-three {
+    display: flex;
+    gap: 160px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.profile-and-date {
+    display: flex;
+    gap: 16px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.oval {
+    height: 40px;
+    width: 40px;
+    border-radius: 99px;
+}
+
+.frame-7 {
+    width: 114px;
+}
+
+.oval-icon {
+    color: var(--grey-500);
+    position: relative;
+    height: 32px;
+    width: 32px;
+    background-color: var(--grey-200);
+    border-radius: 99px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg-btn {
+    background-color: var(--grey-500);
+    color: var(--grey-200);
+}
+
+.hidden {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+@media(max-width:768px) {
+    .card {
+        height: 346px;
+        width: 608px;
+        gap: 32px;
+    }
+
+    .card>img {
+        height: 346px;
+        width: 229px;
+    }
+
+    .text-container {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        width: 311px;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        width: 311px;
+    }
+
+    .part-three {
+        gap: 104px;
+    }
+}
+
+@media(max-width:376px) {
+    .card {
+        flex-direction: column;
+        width: 327px;
+        height: 538px;
+    }
+
+    .card>img {
+        width: 327px;
+        height: 200px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 10px;
+    }
+
+
+    .text-container {
+        gap: 48px;
+        width: 267px;
+    }
+
+    .content {
+        gap: 24px;
+        width: 267px;
+    }
+
+    .part-three {
+        gap: 64px;
+    }
+}

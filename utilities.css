@@ -1,0 +1,138 @@
+.bg-grey-900 {
+    background-color: var(--grey-900);
+}
+
+.bg-grey-500 {
+    background-color: var(--grey-500);
+}
+
+.bg-grey-400 {
+    background-color: var(--grey-400);
+}
+
+.bg-grey-200 {
+    background-color: var(--grey-200);
+}
+
+.bg-white {
+    background-color: var(--white);
+}
+
+.text-grey-900 {
+    color: var(--grey-900);
+}
+
+.text-grey-500 {
+    color: var(--grey-500);
+}
+
+.text-grey-400 {
+    color: var(--grey-400);
+}
+
+.text-grey-200 {
+    color: var(--grey-200);
+}
+
+.text-white {
+    color: var(--white);
+}
+
+.text-preset-1 {
+    font-family: "Manrope", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.25px;
+}
+
+.text-preset-2-bold {
+    font-family: "Manrope", sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 140%;
+    letter-spacing: 0.0156px
+}
+
+.text-preset-2-medium {
+    font-family: "Manrope", sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 140%;
+    letter-spacing: 0.0156px
+}
+
+.text-preset-3 {
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 140%;
+    letter-spacing: 3.24px;
+}
+
+.share-toast-container {
+    height: 67px;
+    position: absolute;
+    bottom: 51px;
+}
+
+.share-toast-container .combined {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.combined .path {
+    margin-top: -1px;
+    width: 0;
+    height: 0;
+    border-left: 12px solid transparent;
+    border-right: 13px solid transparent;
+    border-top: 13px solid var(--grey-900);
+    box-shadow: 0px 10px 10px 0px rgb(201, 213, 225, 0.5);
+}
+
+.combined .rectangle {
+    border-radius: 10px;
+    width: 248px;
+    height: 55px;
+    background-color: var(--grey-900);
+    padding: 18px 38px 18px 38px;
+    box-shadow: 0px 10px 10px 0px rgb(201, 213, 225, 0.5);
+    box-sizing: border-box;
+}
+.share-container{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+}
+.share-images{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.share-toast{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    width: 327px;
+    padding: 16px 32px;
+    box-shadow: 0px 10px 10px 0px rgb(201, 213, 225, 0.5);
+    background-color: var(--grey-900);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-sizing: border-box;
+}
+.frame-16{
+    display: flex;
+    gap:64px;
+    align-items: center;
+}
+.frame-21{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
